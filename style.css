@@ -78,7 +78,7 @@ section#leftside {
 }
 
 #rightside {
-    width: 40%;
+    width: 40vw;
     height: 70vh;
 
 
@@ -237,17 +237,9 @@ ul li i {
     padding: 0 10px;
 }
 
-@media (max-width:1080px) {
+@media (max-width:600px) {
     #rightside {
-        width: 40%;
-        height: 50vh;
-    }
-
-    #rightside img {
-        margin: 25px 0px;
-        width: 40vw;
-        background-color: black;
-        height: 26vh;
+        display: none;
     }
 
     section#leftside {
@@ -287,12 +279,7 @@ ul li i {
 
 }
 
-@media (max-width:600px) {
-    #rightside {
-        display: none;
-    }
 
-}
 
 
 /* about us file css is here  */
