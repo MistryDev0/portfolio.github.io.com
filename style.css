@@ -237,7 +237,7 @@ ul li i {
     padding: 0 10px;
 }
 
-@media (max-width:800px) {
+@media (max-width:1080px) {
     #rightside {
         width: 40%;
         height: 50vh;
