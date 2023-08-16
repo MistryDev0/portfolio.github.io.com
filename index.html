@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Caprasimo&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <title>D - portfolio</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="prem">Dev's Portfolio</h1>
+            <ul>
+                <li id="items"><a href="index.html">Home </a></li>
+                <li id="items"><a href="services.html">Services</a></li>
+                <li id="items"><a href="contect.html">Contect Me </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="ss">
+        <div class="body">
+            <section id="leftside">
+                HELLO,<br> MY NAME IS DEV <br>
+                I AM A PASSINATE <br>
+                <span id="element">DEVELOPER</span>
+            </section>
+            <div id="rightside">
+                <img src="bg.png.png" alt="">
+            </div>
+        <div>
+    </main>
+
+
+
+    <div class="Services">
+        <h1 class="but">EXAMPLE</h1>
+        <div id="box">
+            <img src="box1,jpg.jpg" alt="" class="img1">
+            <div id="services">
+                For Example, This Example button . If you click on it The image of box is disappear within 2 sec
+                You can check It by clicking on it
+
+
+            </div>
+            <button class="btn">Example</button>
+        </div>
+        <div id="box">
+            <img src="box1,jpg.jpg" alt="" class="img2">
+            <div id="services">
+                For Example, This Example button . If you click on it The image of box is disappear within 2 sec but it
+                different. the image getting fade
+                You can check It by clicking on it
+
+
+            </div>
+            <button class="btn2">Example</button>
+        </div>
+        <div id="box">
+            <img src="box1,jpg.jpg" alt="" class="img3">
+            <div id="services">
+                For Example, This Example button . If you click on it The image of box is disappear. The image getting
+                hide by animation of slide
+                . You can check It by clicking on it
+
+            </div>
+            <button class="btn3">Example</button>
+        </div>
+    </div>
+    <footer>
+        <div class="social-media">
+
+            <h1><span>CLICK ON THE I - CON FOR </span><br>GET MY CONTECT <br>
+
+            </h1>
+            <ul>
+                <li id="app"><a href="https://wa.me/qr/R2B2QXPNGIV4K1"><i class="ri-whatsapp-line"></i></a></li>
+                <li id="app"><a href="https://www.snapchat.com/add/dev_mistry0211?share_id=ZDs5HMJZwHc&locale=en-IN"><i
+                            class="ri-snapchat-line"></i></a></li>
+                <li id="app"><a href="https://instagram.com/mistry_dev_0211?igshid=ZDc4ODBmNjlmNQ=="><i
+                            class="ri-instagram-line"></i></a></li>
+                <li id="app"><a href="https://www.facebook.com/profile.php?id=100085280537849&mibextid=2JQ9oc"><i
+                            class="ri-facebook-box-fill"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.', 'CODER .', 'WEB DESIGNER.', 'EDITOR.', 'WEB DEVELOPER.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+<script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+<script>
+    $('img').click(function () {
+        $(this).hide(3000)
+    })
+    $('.btn').click(function () {
+        $('.img1').toggle(2000)
+    })
+    $('.btn2').click(function () {
+        $('.img2').fadeToggle(2000)
+    })
+    $('.btn3').click(function () {
+        $('.img3').slideToggle(2000)
+    })
+
+</script>
+
+</html>

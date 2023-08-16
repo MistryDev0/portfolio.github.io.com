@@ -1,0 +1,371 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid rgb(85, 77, 172);
+
+}
+
+.body {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(85, 77, 172);
+    width: 100%;
+    height: 100px;
+}
+
+nav.navbar h1 {
+    color: aliceblue;
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    margin: 0;
+    text-decoration: none;
+    padding: 0 10px;
+    position: re;
+    color: aliceblue;
+
+}
+
+ul li a:hover {
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-shadow: 5;
+
+}
+
+section.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+    border-bottom: 2px solid rgb(85, 77, 172);
+    border-style: dashed;
+}
+
+#element {
+    color: rgb(85, 77, 172);
+}
+
+section#leftside {
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    width: 50vw;
+    height: 40vh;
+    font-size: 5vw;
+
+}
+
+#rightside {
+    width: 40%;
+    height: 70vh;
+
+
+}
+
+#rightside img {
+    margin: 25px 0px;
+    width: 40vw;
+    background-color: black;
+    height: 55vh;
+}
+
+
+.ss {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(85, 77, 172);
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+}
+
+.Services {
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(85, 77, 172);
+    border-style: dashed;
+
+
+}
+
+.but {
+    color: aliceblue;
+    padding: 1vh 30vw;
+    height: 50px;
+}
+
+#box {
+
+    border: 5px solid rgb(85, 77, 172);
+    border-radius: 10%;
+    height: 400px;
+    width: 300px;
+    padding: 10px 0;
+    margin: 10px 2%;
+    justify-content: center;
+
+}
+
+.img1 {
+    margin: 5% 10%;
+    border: 2px solid rgb(85, 77, 172);
+    height: 40%;
+    width: 80%;
+    border-radius: 23px;
+
+}
+
+.img2 {
+    margin: 5% 10%;
+    border: 2px solid rgb(85, 77, 172);
+    height: 40%;
+    width: 80%;
+    border-radius: 23px;
+
+}
+
+.img3 {
+    margin: 5% 10%;
+    border: 2px solid rgb(85, 77, 172);
+    height: 40%;
+    width: 80%;
+    border-radius: 23px;
+
+}
+
+#services {
+    padding: 10px 10%;
+    color: aliceblue;
+    font-size: 80%;
+}
+
+.btn {
+    margin: 2% 29%;
+    height: 8%;
+    width: 28%;
+    background-color: black;
+    border: 2px solid rgb(85, 77, 172);
+    border-radius: 10px;
+    color: white;
+}
+
+.btn2 {
+    margin: 2% 29%;
+    height: 8%;
+    width: 28%;
+    background-color: black;
+    border: 2px solid rgb(85, 77, 172);
+    border-radius: 10px;
+    color: white;
+}
+
+.btn3 {
+    margin: 2% 29%;
+    height: 8%;
+    width: 28%;
+    background-color: black;
+    border: 2px solid rgb(85, 77, 172);
+    border-radius: 10px;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(85, 77, 172);
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(85, 77, 172);
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn3:hover {
+    background-color: rgb(85, 77, 172);
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.social-media {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media h1 {
+    font-size: 3vw;
+    color: aliceblue;
+
+}
+
+.social-media h1 span {
+    font-size: 1.1vw;
+    margin: 0;
+}
+
+ul li i {
+    font-size: 5vh;
+    padding: 0 10px;
+}
+
+@media (max-width:800px) {
+    #rightside {
+        width: 40%;
+        height: 50vh;
+    }
+
+    #rightside img {
+        margin: 25px 0px;
+        width: 40vw;
+        background-color: black;
+        height: 26vh;
+    }
+
+    section#leftside {
+        margin: 20px 30px;
+        width: 100%;
+        height: 40vh;
+        font-size: 5vh;
+
+    }
+
+    nav.navbar h1 {
+        margin: 0;
+    }
+
+    section.body {
+        justify-content: center;
+    }
+
+    .prem {
+        margin: 0;
+    }
+
+
+    .social-media {
+        padding: 27px 0;
+        justify-content: center;
+    }
+
+    .rightside>.box5 {
+        margin: 10% 5%;
+        width: 403px;
+
+    }
+
+
+
+
+}
+
+@media (max-width:600px) {
+    #rightside {
+        display: none;
+    }
+
+}
+
+
+/* about us file css is here  */
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sc {
+    height: 500px;
+    background-color: black;
+    border-bottom: 2px solid rgb(85, 77, 172);
+    border-style: dashed;
+    height: 70%;
+
+}
+
+
+
+.rightside>.box5 {
+    margin: 14% 0%;
+    height: 700px;
+    width: 400px;
+    border: 3px solid rgb(85, 77, 172);
+    border-color: color-mix(in srgb, blue 50%, rgb(255, 0, 0) 50%);
+    border-radius: 10px;
+
+}
+
+h1 {
+    color: #fff;
+    margin: 35px 8%;
+}
+
+
+.name {
+    color: white;
+    padding: 20px 10px;
+}
+
+#box1 {
+    border: 4px solid rgb(85, 77, 172);
+    margin: 10% 9%;
+    height: 9%;
+    border-radius: 20px;
+    align-items: center;
+
+
+}
+
+span {
+    font-weight: bolder;
+
+}
+
+a button {
+    margin: 0% 9%;
+    height: 6%;
+    width: 25%;
+    color: white;
+    font-size: 1.1rem;
+    background-color: black;
+    border: 3px solid rgb(85, 77, 172);
+    border-radius: 9px;
+
+}
+
+a button:hover {
+    cursor: pointer;
+    color: rgb(85, 77, 172);
+    background-color: #fff;
+    border: 3px solid rgb(85, 77, 172);
+
+}
